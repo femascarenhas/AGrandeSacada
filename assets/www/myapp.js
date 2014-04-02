@@ -18,7 +18,7 @@
  function alert() {
 	 
 	 navigator.notification.alert(
-	 	'Conteudo Vazio', 
+	 	'Conteu3do Vazio', 
 		dismissed,
 		'A Grande Sacada',
 		'Done'  

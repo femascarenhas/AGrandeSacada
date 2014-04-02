@@ -50,7 +50,7 @@ public class AGrandeSacada extends DroidGap {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		super.setIntegerProperty("splashscreen", R.drawable.splash);
-		super.loadUrl("file:///android_asset/www/index.html");
+		super.loadUrl("file:///android_asset/www/index.html", 4000);
 
 //		final View controlsView = findViewById(R.id.fullscreen_content_controls);
 //		final View contentView = findViewById(R.id.fullscreen_content);
