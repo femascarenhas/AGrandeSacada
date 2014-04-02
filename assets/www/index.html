@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Aplicativo da Web jQuery Mobile</title>
+<title>Centro de Treinamento - A Grande Sacada</title>
 <link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
 <link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
 <script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
@@ -12,13 +12,13 @@
 
 <div id="page" data-role="page">
 	<div data-role="header">
-		<h1>Centro de Treinamento</h1>
+		<h1>Painel</h1>
 	</div>
 	<div data-role="content">	
 		<ul data-role="listview">
-			<li><a href="#page2">Alunos</a></li>
-            <li><a href="#page3">Frequência</a></li>
-			<li><a href="#page4">Pagamentos</a></li>
+			<li><a href="#alunos">Alunos</a></li>
+            <li><a href="#frequencia">Frequência</a></li>
+			<li><a href="#pagamentos">Pagamentos</a></li>
 		</ul>		
 	</div>
 	<div data-role="footer">
@@ -26,24 +26,26 @@
 	</div>
 </div>
 
-<div id="page2" data-role="page">
+<!-- PAGINA DE FREQUÊNCIA -->
+<div data-role="page" id="alunos">
 	<div data-role="header">
 		<h1>Alunos</h1>
 	</div>
-	<a href="#" data-role="button" data-icon="plus" data-iconpos="right">Adicionar</a>
+	<div data-role="content" data-theme="b"> 
+    <a href="#" data-role="button" data-icon="plus" data-iconpos="right">Adiconar</a>
     <a href="#" data-role="button" data-icon="minus" data-iconpos="right">Remover</a>
-    <a href="#" data-role="button" data-icon="info" data-iconpos="right">Listar</a>
     <a href="#" data-role="button" data-icon="refresh" data-iconpos="right">Atualizar</a>
-    
-    
-    
-	</div>
+    <a href="#" data-icon="search" data-iconpos="right" data-role="button">Buscar</a>
+    </div>
 	<div data-role="footer">
 		<h4>A Grande Sacada</h4>
 	</div>
 </div>
+<!------------------------------>
 
-<div data-role="page" id="page3">
+
+<!-- PAGINA DE FREQUÊNCIA -->
+<div data-role="page" id="frequencia">
 	<div data-role="header">
 		<h1>Frequência</h1>
 	</div>
@@ -54,8 +56,9 @@
 		<h4>A Grande Sacada</h4>
 	</div>
 </div>
+<!------------------------------>
 
-<div data-role="page" id="page4">
+<div data-role="page" id="pagamentos">
 	<div data-role="header">
 		<h1>Pagamentos</h1>           
 	</div>
