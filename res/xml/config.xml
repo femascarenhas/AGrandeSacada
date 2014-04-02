@@ -18,7 +18,7 @@
  under the License.
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "com.agrandesacada.app"
+        id        = "com.app.agrandesacada"
         version   = "1.0.0">
     <name>A Grande Sacada</name>
 
@@ -37,6 +37,7 @@
 
     <preference name="loglevel" value="DEBUG" />
     
+      <preference name="splash-screen-duration" value="10000"/>
       <preference name="splashscreen" value="splash" />
        <!--  
       <preference name="backgroundColor" value="0xFFF" />
