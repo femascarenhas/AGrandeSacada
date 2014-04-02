@@ -141,7 +141,8 @@
 }
 .ui-header,.ui-footer
 {
-	display:block
+	display:block;
+	clear: both
 }
 .ui-page .ui-header,.ui-page .ui-footer
 {
