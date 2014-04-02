@@ -38,9 +38,10 @@
     <preference name="loglevel" value="DEBUG" />
       <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
 		
-      <!-- 
+
       <preference name="splash-screen-duration" value="4000"/>
       <preference name="splash" value="splash" />
+       <!-- 
       <preference name="backgroundColor" value="0xFFF" />
       <preference name="loadUrlTimeoutValue" value="20000" />
       <preference name="InAppBrowserStorageEnabled" value="true" />
