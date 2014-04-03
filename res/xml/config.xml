@@ -18,16 +18,16 @@
  under the License.
 -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        id        = "com.app.agrandesacada"
-        version   = "1.0.0">
+        id        = "com.agrandesacada.ags"
+        version   = "2.0.0">
     <name>A Grande Sacada</name>
 
     <description>
-        Controle de usuários para o centro de treinamento "A Grande Sacada".
+        Controle de clientes para o centro de treinamento - A Grande Sacada.
     </description>
 
-    <author href="http://facebook.com/felipe.mascarenhas" email="femascarenhas@me.com">
-        Mascarenhas Development
+    <author href="http://" email="femascarenhas@me.com">
+        M. Dev
     </author>
 
     <access origin="*"/>
@@ -35,13 +35,12 @@
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
 
+    <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
+    
+    
     <preference name="loglevel" value="DEBUG" />
-      <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>
-		
-
-      <preference name="splash-screen-duration" value="4000"/>
-      <preference name="splash" value="splash" />
-       <!-- 
+    <!--
+      <preference name="splashscreen" value="resourceName" />
       <preference name="backgroundColor" value="0xFFF" />
       <preference name="loadUrlTimeoutValue" value="20000" />
       <preference name="InAppBrowserStorageEnabled" value="true" />

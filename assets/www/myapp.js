@@ -15,6 +15,12 @@
  }
  
  
+ function onDeviceReady() {
+        navigator.splashscreen.show();
+    }
+	
+	
+ 
  function alert() {
 	 
 	 navigator.notification.alert(
