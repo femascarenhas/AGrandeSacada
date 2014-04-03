@@ -23,11 +23,11 @@
     <name>A Grande Sacada</name>
 
     <description>
-        Controle de clientes para o centro de treinamento ""A Grande Sacada".
+        Controle de clientes do centro de treinamento.
     </description>
 
-    <author href="http://cordova.io" email="dev@cordova.apache.org">
-        Apache Cordova Team
+    <author href="http://facebook.com/felipe.mascarenhas" email="femascarenhas@me.com">
+        M. Development
     </author>
 
     <access origin="*"/>
